@@ -1,18 +1,9 @@
 {
-  "name": "printer",
+  "name": "node-printer",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "main": "index.cjs",
   "type": "commonjs",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^5.2.1",
-    "pdf-to-printer": "^5.6.1"
+  "scripts": {
+    "start": "node index.cjs"
   }
 }
