@@ -5,5 +5,12 @@
   "type": "commonjs",
   "scripts": {
     "start": "node index.cjs"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "node-fetch": "^3.3.2",
+    "pdf-lib": "^1.17.1",
+    "pdf-to-printer": "^5.8.0"
   }
 }
